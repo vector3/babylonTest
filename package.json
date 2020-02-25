@@ -1,0 +1,32 @@
+{
+  "name": "babylon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^4.0.3",
+    "@babylonjs/gui": "^4.0.3",
+    "@babylonjs/inspector": "^4.0.3",
+    "@babylonjs/materials": "^4.0.3",
+    "@babylonjs/procedural-textures": "^4.0.3",
+    "@babylonjs/serializers": "^4.0.3",
+    "browser-sync": "^2.26.7",
+    "fancy-log": "^1.3.3",
+    "fork-ts-checker-webpack-plugin": "^4.0.4",
+    "gulp": "^4.0.2",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "yargs": "^15.1.0"
+  },
+  "dependencies": {}
+}

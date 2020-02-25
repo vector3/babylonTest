@@ -1,0 +1,16 @@
+// see: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    // "sourceMap": true,
+    "module": "ESNext", //"ES6"
+    "target": "ES5",
+    // "jsx": "react",
+    "moduleResolution": "node",
+    // speed up compile time at the cost of security checks.
+    // see: https://www.typescriptlang.org/v2/en/tsconfig#skipLibCheck
+    "skipLibCheck": true,
+    // use strict mode but allow uninitialized class fields
+    "strict": true,
+    "strictNullChecks": false
+  }
+}
